@@ -20,10 +20,10 @@ layout: post
 {%- endif %}
 
 {% if page.inspiration -%}
-<h3>
+<h2>
     Grazie a ...
     {{ page.inspiration.name }}
-</h3>
+</h2>
 {% if page.inspiration.text -%}
     <p>
     {{- page.inspiration.text -}}
@@ -37,9 +37,9 @@ Per maggiori informazioni visita
 </p>
 {%- endif %}
 
-<h3>
+<h2>
     Ingredienti (per {{ page.serves }} persone)
-</h3>
+</h2>
 
 {%- for ingredient_list in page.ingredients %}
 {% if ingredient_list.preparation_name -%}
@@ -57,28 +57,38 @@ Per maggiori informazioni visita
 </ul>
 {%- endfor %}
 
-<h3>
+<h2>
     Procedimento
-</h3>
+</h2>
+
+{%- for step_list in page.steps %}
+
+{% if step_list.preparation_name -%}
+    <h3>
+    {{ step_list.preparation_name }}
+    </h3>
+{%- endif %}
 
 <ol class="gradient-list">
-    {%- for s in page.steps %}
-    {%- if s.type == 'text' %}
-    <li>
-        <!-- {{ forloop.index }}: -->
-        {{ s.instruction }}
-    </li>
-    {%- elsif s.type == 'image' -%}
-    {%- assign rel_img_url = "/assets/images/" | append: s.filename | relative_url %}
-    <img class="recipe-image" src="{{ rel_img_url }}" alt="{{ s.alttext }}">
-    {%- endif -%}
+    {%- for s in step_list.list %}
+        {%- if s.type == 'text' %}
+            <li>
+            <!-- {{ forloop.index }}: -->
+            {{ s.instruction }}
+            </li>
+        {%- elsif s.type == 'image' -%}
+            {%- assign rel_img_url = "/assets/images/" | append: s.filename | relative_url %}
+            <img class="recipe-image" src="{{ rel_img_url }}" alt="{{ s.alttext }}">
+        {%- endif -%}
     {%- endfor %}
 </ol>
 
+{%- endfor %}
+
 {%- if page.notes -%}
-<h3>
+<h2>
     Note
-</h3>
+</h2>
 <ul>
     {%- for note in page.notes %}
     <li>
@@ -89,19 +99,17 @@ Per maggiori informazioni visita
 {%- endif -%}
 
 {%- if page.seealso -%}
-<h3>
+<h2>
     Vedi anche
-</h3>
+</h2>
 <ul>
     {%- for sa in page.seealso %}
     <li>
         {{ sa.text }}
-        {% if sa.link -%}
         Per maggiori informazioni visita
         <a href="{{- sa.link.url -}}">
             {{- sa.link.description -}}
         </a>.
-        {%- endif -%}
     </li>
     {%- endfor %}
 </ul>

@@ -74,7 +74,7 @@ excerpt: >
   One of
   [
   {%- for sorted_course in site.data.courses %}
-      `{{ sorted_course.name }}`, 
+      `{{ sorted_course.name }}`,
   {%- endfor -%}
   ].
 * `serves`:
@@ -146,7 +146,8 @@ inspiration:
       - `description`:
       Required.
       A workaround for grammatical concordance between what you are linking
-      and the description of it: it will be rendered as
+      and the description of it:
+      it will be rendered as
       `Per maggiori informazioni visita {link.url.description}.`
       So in this example it would be:
       `Per maggiori informazioni visita il suo fantastico blog.`
@@ -160,7 +161,7 @@ A composite ingredient list:
 ```yaml
 ingredients:
   - preparation_name: null
-    list: 
+    list:
     - name: Farina di mandorle
       quantity: 400g
     - name: Albumi
@@ -168,7 +169,7 @@ ingredients:
     - name: Zucchero
       quantity: tanto
   - preparation_name: Per la glassa
-    list: 
+    list:
     - name: Cioccolato
       quantity: 100g
 ```
@@ -191,4 +192,109 @@ ingredients:
 
 ### Step list
 
+A composite preparation steps list:
+
+```yaml
+steps:
+  - preparation_name: null
+    list:
+    - type: text
+      instruction: >
+        Mescola tutto per bene.
+    - type: text
+      instruction: >
+        Riposa.
+    - type: image
+      filename: dolcetti_mandorle.jpeg
+      alttext: Un invitante foto di dolcetti alle mandorle.
+  - preparation_name: Per la glassa
+    list:
+    - type: text
+      instruction: >
+        Sciogli il cioccolato a bagnomaria.
+```
+
+* `steps`:
+  Required.
+  One or more lists of steps.
+  - `preparation_name`:
+    Required, can be `null` to skip the heading.
+    The heading of the step list being rendered.
+  - `list`:
+    Required.
+    A list of steps for one preparation.
+    There are two types of step: `text` and `image`,
+    that can be freely mixed one after the other.
+    1. `text` step:
+      - `type`:
+      Required.
+      Must be set to text.
+      - `instruction`:
+      Required.
+      The explanation for this step.
+    1. `image` step:
+      - `type`:
+      Required.
+      Must be set to image.
+      - `filename`:
+        Required.
+        The filename with extension of the image.
+      - `alttext`:
+        Required.
+        A short description of the image content, for accessibility.
+
+### Notes
+
+A simple list of notes.
+
+```yaml
+notes:
+  - Ricordati lo zucchero a velo!
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.
+```
+
+* `notes`:
+  Optional.
+  A  list of notes for the recipe.
+  Mistically, there is no need for `>`. And apparently things do not break
+  if I remove it from the other places, but who knows.
+
+### See also
+
+A list of related links.
+
+```yaml
+seealso:
+  - text: >
+      Questo link.
+    link:
+      url: https://www.youtube.com
+      description: il suo canale youtube
+  - text: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    link:
+      url: https://www.example.com
+      description: il suo famoso blog
+```
+
+* `seealso`:
+  Optional.
+  A list of related resources.
+  - `text`:
+    Optional.
+  - `link`:
+    Required.
+    The link to the additional resource:
+      - `url`:
+      Required.
+      The full url of the page.
+      - `description`:
+      Required.
+      A workaround for grammatical concordance between what you are linking
+      and the description of it:
+      Look at the [sample recipe] to see it in action.
+
+<!-- Links -->
 [sample recipe]: {{ "/samplerecipe/" | relative_url }}
