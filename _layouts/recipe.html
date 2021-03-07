@@ -1,0 +1,55 @@
+---
+layout: post
+---
+
+<p>
+{{ page.excerpt -}}
+</p>
+
+{% if page.imagefinished %}
+<img class="recipe-image" src="/assets/images/{{ page.imagefinished.path }}" alt="{{ page.imagefinished.alttext }}">
+    {%- if page.imagefinished.caption -%}
+    <figcaption>{{ page.imagefinished.caption }}</figcaption>
+    {%- endif -%}
+{%- endif %}
+
+<h3>
+    Ingredienti (per {{ page.serves }} persone)
+</h3>
+
+<ul>
+    {%- for ingredient in page.ingredients %}
+    <li>
+        {{ ingredient }}
+    </li>
+    {%- endfor %}
+</ul>
+
+<h3>
+    Procedimento
+</h3>
+
+<ol class="gradient-list">
+    {%- for s in page.steps %}
+    {%- if s.type == 'text' %}
+    <li>
+        <!-- {{ forloop.index }}: -->
+        {{ s.instruction }}
+    </li>
+    {%- elsif s.type == 'image' %}
+    <img class="recipe-image" src="/assets/images/{{ s.path }}" alt="{{ s.alttext }}">
+    {%- endif -%}
+    {%- endfor %}
+</ol>
+
+{%- if page.notes -%}
+<h3>
+    Note
+</h3>
+{%- endif -%}
+
+{%- if page.seealso -%}
+<h3>
+    Vedi anche
+</h3>
+{%- endif -%}

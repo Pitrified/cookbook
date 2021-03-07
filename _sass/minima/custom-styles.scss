@@ -1,0 +1,73 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+// https://codepen.io/erinesullivan/pen/qGrdGV
+/*** FONTS ***/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:900);
+
+/*** VARIABLES ***/
+/* Colors */
+// $list-black-color: #1d1f20;
+// $blue: #83e4e2;
+// $green: #a2ed56;
+// $yellow: #fddc32;
+// $white: #fafafa;
+
+/*** EXTEND ***/
+/* box-shadow */
+%boxshadow {
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0,0,0,0.05), 0 0.5rem 1.125rem rgba(75,0,0,0.05);
+}
+
+ol.gradient-list {
+  counter-reset: gradient-counter;
+  list-style: none;
+  margin: 1.75rem 0;
+  padding-left: 1rem;
+  > li {
+    background: $list-background-color;
+    border-radius: 0 0.5rem 0.5rem 0.5rem;
+    @extend %boxshadow;
+    counter-increment: gradient-counter;
+    margin-top: 1rem;
+    min-height: 1.5rem;
+    padding: 0.7rem 1.5rem 1rem 1.5rem;
+    position: relative;
+    text-align: justify;
+    text-indent: 1.8rem;
+    &::before,
+    &::after {
+      background: $list-header-background-color;
+      border-radius: 1rem 1rem 0 1rem;
+      content: '';
+      height: 2rem;
+      width: 2.5rem;
+      overflow: hidden;
+      position: absolute;
+      top: -1rem;
+      left: -1rem;
+    }
+    &::before {
+      align-items: flex-end;
+      @extend %boxshadow;
+      content: counter(gradient-counter);
+      color: $list-header-text-color;
+      display: flex;
+      font: 900 1.5em/1 'Montserrat';
+      justify-content: flex-end;
+      padding: 0.125em 0.25em;
+      z-index: 1;
+    }
+    + li {
+      margin-top: 2rem;
+    }
+  }
+}
+
+.recipe-image {
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}

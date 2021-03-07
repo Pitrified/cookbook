@@ -1,0 +1,42 @@
+<footer class="site-footer h-card">
+    <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+    <div class="wrapper">
+
+        <div class="footer-col-wrapper">
+            <div class="footer-col">
+                <ul class="contact-list">
+                    {%- if site.author %}
+                    {% if site.author.name -%}
+                    <li class="p-name">
+                        <!-- Mantained by -->
+                        Curato da
+                        <a class="u-email" href="{{ site.author.githubpage }}">
+                            {{ site.author.name | escape }}
+                        </a>
+                    </li>
+                    {% endif -%}
+                    {% if site.author.email and false -%}
+                    <li>
+                        Send me new recipes:
+                        <a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+                    </li>
+                    {%- endif %}
+                    {%- endif %}
+                    <li>
+                        <!-- Theme: -->
+                        Tema:
+                        <a class="u-email" href="https://github.com/jekyll/minima">
+                            Minima
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col last-col">
+                <p class="last-col">{{ site.description | escape }}</p>
+            </div>
+        </div>
+
+    </div>
+
+</footer>
