@@ -5,7 +5,7 @@ layout: default
 
 {{ content }}
 
-{% assign filtered_posts = site.posts | where: 'course', page.short_name %}
+{% assign filtered_posts = site.posts | where: 'category', page.short_name %}
 {% if filtered_posts.size > 0 -%}
     {% for post in filtered_posts %}
         <h2 class="headerlist">

@@ -1,6 +1,6 @@
 ---
 author: Pietro
-course: dolci
+category: dolci
 title: Biscotti di pastafrolla
 
 ---
