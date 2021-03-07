@@ -1,0 +1,46 @@
+title: Il mio ricettario
+# title: My friendly cookbook
+author:
+  name: Pitrified
+  email: pitrified.git@gmail.com
+  githubpage: https://github.com/Pitrified/
+
+# My friends and family's favourite recipes.
+description: > # this means to ignore newlines until "show_excerpts:"
+  Le ricette preferite da amici e familiari.
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+collections:
+  courses:
+    output: true
+    # permalink: /:collection/:title
+
+defaults:
+  - scope:
+      path: ""
+      type: "courses"
+    values:
+      layout: "courses"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  # date_format: "%b %-d, %Y"
+  date_format: "%Y/%m/%d"
+  # skin: classic
+  skin: dark
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
