@@ -7,7 +7,17 @@ layout: post
 </p>
 
 {% if page.imagefinished %}
-<img class="recipe-image" src="/assets/images/{{ page.imagefinished.path }}" alt="{{ page.imagefinished.alttext }}">
+
+<!-- {{ "/assets/images/" | append: page.imagefinished.path }} -->
+<!-- {%- assign img_url = "/assets/images/" | append: page.imagefinished.path -%} -->
+<!-- img {{ img_url }} -->
+<!-- {%- assign rel_img_url =  img_url | relative_url -%} -->
+<!-- rel {{ rel_img_url }} -->
+<!-- path {{ page.imagefinished.path }} -->
+{%- assign rel_img_url = "/assets/images/" | append: page.imagefinished.path | relative_url -%}
+
+
+<img class="recipe-image" src="{{ rel_img_url }}" alt="{{ page.imagefinished.alttext }}">
     {%- if page.imagefinished.caption -%}
     <figcaption>{{ page.imagefinished.caption }}</figcaption>
     {%- endif -%}
@@ -37,7 +47,8 @@ layout: post
         {{ s.instruction }}
     </li>
     {%- elsif s.type == 'image' %}
-    <img class="recipe-image" src="/assets/images/{{ s.path }}" alt="{{ s.alttext }}">
+    {%- assign rel_img_url = "/assets/images/" | append: s.path | relative_url -%}
+    <img class="recipe-image" src="{{ rel_img_url }}" alt="{{ s.alttext }}">
     {%- endif -%}
     {%- endfor %}
 </ol>
