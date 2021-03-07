@@ -8,7 +8,7 @@ excerpt: >
   Dolci alle mandorle buoni come quelli di Siracusa.
 imagefinished:
   path: dolcetti_mandorle.jpeg
-  alttext: A short description of the image.
+  alttext: Un invitante foto di dolcetti alle mandorle.
 ingredients:
   - Farina di mandorle
   - Albume
@@ -22,7 +22,7 @@ steps:
       Riposa.
   - type: image
     path: dolcetti_mandorle.jpeg
-    alttext: A short description of the image.
+    alttext: Un invitante foto di dolcetti alle mandorle.
   - type: text
     instruction: >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

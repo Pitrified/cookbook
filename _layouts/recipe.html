@@ -6,17 +6,9 @@ layout: post
 {{ page.excerpt -}}
 </p>
 
+<!-- Add the main image with the final dish -->
 {% if page.imagefinished %}
-
-<!-- {{ "/assets/images/" | append: page.imagefinished.path }} -->
-<!-- {%- assign img_url = "/assets/images/" | append: page.imagefinished.path -%} -->
-<!-- img {{ img_url }} -->
-<!-- {%- assign rel_img_url =  img_url | relative_url -%} -->
-<!-- rel {{ rel_img_url }} -->
-<!-- path {{ page.imagefinished.path }} -->
 {%- assign rel_img_url = "/assets/images/" | append: page.imagefinished.path | relative_url -%}
-
-
 <img class="recipe-image" src="{{ rel_img_url }}" alt="{{ page.imagefinished.alttext }}">
     {%- if page.imagefinished.caption -%}
     <figcaption>{{ page.imagefinished.caption }}</figcaption>
