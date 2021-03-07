@@ -8,7 +8,8 @@ layout: default
 {% assign filtered_posts = site.posts | where: 'course', page.short_name %}
 {% if filtered_posts.size > 0 -%}
     {% for post in filtered_posts %}
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <!-- <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2> -->
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
         {{ post.excerpt }}
     {% endfor %}
 {%- else %}

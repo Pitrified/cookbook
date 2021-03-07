@@ -5,6 +5,9 @@ author:
   email: pitrified.git@gmail.com
   githubpage: https://github.com/Pitrified/
 
+repository: Pitrified/cookbook
+baseurl: /cookbook
+
 # My friends and family's favourite recipes.
 description: > # this means to ignore newlines until "show_excerpts:"
   Le ricette preferite da amici e familiari.
