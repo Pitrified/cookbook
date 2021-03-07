@@ -17,7 +17,9 @@ show_excerpts: false # set to true to show excerpts on the homepage
 collections:
   courses:
     output: true
-    # permalink: /:collection/:title
+    permalink: /:collection/:title
+
+permalink: /:categories/:slug/
 
 defaults:
   - scope:

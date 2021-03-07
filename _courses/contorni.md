@@ -4,6 +4,4 @@ title: Contorno
 order: 06
 ---
 
-I contorni si mangiano insieme al secondo.
-
-
+Non esagerare con la verdura.

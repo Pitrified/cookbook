@@ -4,5 +4,4 @@ title: Secondo
 order: 04
 ---
 
-I secondi si mangiano dopo il primo.
-
+P R O T E I N E !

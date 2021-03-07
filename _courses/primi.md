@@ -4,5 +4,5 @@ title: Primo
 order: 03
 ---
 
-I primi si mangiano dopo l'antipasto.
-
+Pasta, what else?
+Una miriade di piatti, in realtà.

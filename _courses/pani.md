@@ -1,7 +1,7 @@
 ---
 short_name: pani
-title: Pane e focaccie
+title: Pane e focacce
 order: 01
 ---
 
-Il pane è buono.
+Semplice e genuino.

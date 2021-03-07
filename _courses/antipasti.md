@@ -4,6 +4,4 @@ title: Antipasto
 order: 02
 ---
 
-Gli antipasti si mangiano per primi.
-
-
+Chi ben comincia è a metà dell'opera.
