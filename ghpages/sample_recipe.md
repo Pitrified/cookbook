@@ -1,23 +1,37 @@
 ---
 layout: recipe
 category: dolci
-author: Pietro
-title: Dolcetti alle mandorle
+author: Un nome importante
+title: Il titolo esteso
 serves: 4
 excerpt: >
-  Dolci alle mandorle buoni come quelli di Siracusa.
+  Una breve descrizione della ricetta.
+  Può essere anche spezzata su più righe nel file,
+  ma verrà tutta messa in un paragrafo solo.
 imagefinished:
   filename: dolcetti_mandorle.jpeg
-  alttext: Un invitante foto di dolcetti alle mandorle.
+  alttext: A short description of the image content, for accessibility.
+  caption: A caption for the image.
 inspiration:
-  name: RapaNello
+  name: CookingGuru
+  text: >
+    I'm so grateful to the Guru.
   link:
-    url: https://www.youtube.com/watch?v=6CjZ11noTGw
-    description: il suo canale youtube
+    url: https://www.example.com
+    description: il suo fantastico blog
 ingredients:
-  - Farina di mandorle
-  - Albume
-  - Zucchero (tanto)
+  - preparation_name: null
+    list: 
+    - name: Farina di mandorle
+      quantity: 400g
+    - name: Albumi
+      quantity: 2
+    - name: Zucchero
+      quantity: tanto
+  - preparation_name: Per la glassa
+    list: 
+    - name: Cioccolato
+      quantity: 100g
 steps:
   - type: text
     instruction: >
@@ -39,11 +53,18 @@ steps:
       mollit anim id est laborum.
 notes:
   - Ricordati lo zucchero a velo!
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+    est laborum.
 seealso:
   - text: >
       Questo link.
     link:
-      url: https://www.youtube.com/watch?v=6CjZ11noTGw
+      url: https://www.youtube.com
       description: il suo canale youtube
   - text: >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -54,6 +75,12 @@ seealso:
       occaecat cupidatat non proident, sunt in culpa qui officia deserunt
       mollit anim id est laborum.
     link:
-      url: https://www.youtube.com/watch?v=6CjZ11noTGw
+      url: https://www.example.com
       description: il suo famoso blog
+
+# this is just so that the layout knows what to put there
+date: today
+# required to find this unlisted recipe :D
+permalink: /samplerecipe/
 ---
+

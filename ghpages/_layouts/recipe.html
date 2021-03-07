@@ -12,7 +12,7 @@ layout: post
 
 <!-- Add the main image with the final dish -->
 {% if page.imagefinished %}
-    {%- assign rel_img_url = "/assets/images/" | append: page.imagefinished.path | relative_url -%}
+    {%- assign rel_img_url = "/assets/images/" | append: page.imagefinished.filename | relative_url -%}
     <img class="recipe-image" src="{{ rel_img_url }}" alt="{{ page.imagefinished.alttext }}">
     {%- if page.imagefinished.caption -%}
         <figcaption>{{ page.imagefinished.caption }}</figcaption>
@@ -24,27 +24,38 @@ layout: post
     Grazie a ...
     {{ page.inspiration.name }}
 </h3>
-{% if page.inspiration.link -%}
+{% if page.inspiration.text -%}
     <p>
-    Per maggiori informazioni visita
-    <a href="{{- page.inspiration.link.url -}}">
-        {{- page.inspiration.link.description -}}
-    </a>.
+    {{- page.inspiration.text -}}
     </p>
 {%- endif -%}
+<p>
+Per maggiori informazioni visita
+<a href="{{- page.inspiration.link.url -}}">
+    {{- page.inspiration.link.description -}}
+</a>.
+</p>
 {%- endif %}
 
 <h3>
     Ingredienti (per {{ page.serves }} persone)
 </h3>
 
+{%- for ingredient_list in page.ingredients %}
+{% if ingredient_list.preparation_name -%}
+<h4>
+{{ ingredient_list.preparation_name }}
+</h4>
+{%- endif %}
 <ul>
-    {%- for ingredient in page.ingredients %}
+    {%- for ingredient in ingredient_list.list %}
     <li>
-        {{ ingredient }}
+        {{- ingredient.name }}
+        ({{ ingredient.quantity -}})
     </li>
     {%- endfor %}
 </ul>
+{%- endfor %}
 
 <h3>
     Procedimento
@@ -58,7 +69,7 @@ layout: post
         {{ s.instruction }}
     </li>
     {%- elsif s.type == 'image' -%}
-    {%- assign rel_img_url = "/assets/images/" | append: s.path | relative_url %}
+    {%- assign rel_img_url = "/assets/images/" | append: s.filename | relative_url %}
     <img class="recipe-image" src="{{ rel_img_url }}" alt="{{ s.alttext }}">
     {%- endif -%}
     {%- endfor %}

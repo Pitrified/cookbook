@@ -11,6 +11,8 @@
 * Add a template for the recipes.
 * Bullet list with the same accent color of fancy lists.
 * Multi language support.
+* Additional ingredient lists.
+* Optional key in main ingredient list.
 
 ##### Done
 
