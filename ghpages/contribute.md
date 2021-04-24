@@ -152,8 +152,9 @@ inspiration:
       `Per maggiori informazioni visita {link.url.description}.`
       So in this example it would be:
       `Per maggiori informazioni visita il suo fantastico blog.`
-      And the description will be the clickable part of the text.
-      I mean, look at the [sample recipe] to see it in action.
+      And the whole description will be the clickable part of the text.
+      I mean, look at the [sample recipe] to see it in action,
+      it is far clearer.
 
 ### Ingredient list
 
@@ -169,6 +170,10 @@ ingredients:
       quantity: 2
     - name: Zucchero
       quantity: tanto
+    imageingredient:
+      filename: dolcetti_mandorle/dolcetti_mandorle_ingredienti.jpg
+      alttext: Ingredienti per i dolcetti di mandorle.
+      caption: A caption for the image.
   - preparation_name: Per la glassa
     list:
     - name: Cioccolato
@@ -190,6 +195,18 @@ ingredients:
       - `quantity`:
       Required.
       The quantity of the ingredient.
+  - `imageingredient`:
+    Optional.
+    An image for the ingredient, one per preparation.
+      - `filename`:
+        Required.
+        The filename with extension of the image.
+      - `alttext`:
+        Required.
+        A short description of the image content, for accessibility.
+      - `caption`:
+        Optional.
+        A caption for the image.
 
 ### Step list
 
@@ -229,14 +246,14 @@ steps:
     1. `text` step:
       - `type`:
       Required.
-      Must be set to text.
+      Must be set to `text`.
       - `instruction`:
       Required.
       The explanation for this step.
     1. `image` step:
       - `type`:
       Required.
-      Must be set to image.
+      Must be set to `image`.
       - `filename`:
         Required.
         The filename with extension of the image.

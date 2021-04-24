@@ -72,8 +72,8 @@ steps:
 
 notes:
   - Se vuoi esagerare metti una nocciola sopra il cioccolato.
-  - Per sbloccare subito il diabete, fai anche la crema di mascarpone e usa i biscotti
-    per tirarla su.
+  - Per sbloccare subito il diabete,
+    fai anche la crema di mascarpone e usa i biscotti per tirarla su.
   - La stessa pasta si puo' usare per San Martini e crostate.
   - La glassa può essere di ogni tipo chiaramente.
 

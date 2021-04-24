@@ -4,14 +4,17 @@ category: dolci
 author: Un nome importante
 title: Il titolo esteso
 serves: per 4 persone
+
 excerpt: >
   Una breve descrizione della ricetta.
   Può essere anche spezzata su più righe nel file,
   ma verrà tutta messa in un paragrafo solo.
+
 imagefinished:
   filename: dolcetti_mandorle/dolcetti_mandorle.jpeg
   alttext: A short description of the image content, for accessibility.
   caption: A caption for the image.
+
 inspiration:
   name: CookingGuru
   text: >
@@ -19,7 +22,9 @@ inspiration:
   link:
     url: https://www.example.com
     description: il suo fantastico blog
+
 ingredients:
+
   - preparation_name: null
     list:
     - name: Farina di mandorle
@@ -28,10 +33,20 @@ ingredients:
       quantity: 2
     - name: Zucchero
       quantity: tanto
+    imageingredient:
+      filename: dolcetti_mandorle/dolcetti_mandorle_ingredienti.jpg
+      alttext: A short description of the image content, for accessibility.
+      caption: A caption for the image.
+
   - preparation_name: Per la glassa
     list:
     - name: Cioccolato
       quantity: 100g
+    imageingredient:
+      filename: dolcetti_mandorle/dolcetti_mandorle_ingredienti.jpg
+      alttext: A short description of the image content, for accessibility.
+      caption: Foto per la glassa.
+
 steps:
   - preparation_name: null
     list:
@@ -53,6 +68,7 @@ steps:
         velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
+
   - preparation_name: Per la glassa
     list:
     - type: text
@@ -67,6 +83,7 @@ notes:
     velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
     cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
     est laborum.
+
 seealso:
   - text: >
       Questo link.

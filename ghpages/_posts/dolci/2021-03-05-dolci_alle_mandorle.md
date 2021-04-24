@@ -27,13 +27,13 @@ ingredients:
       quantity: 1 fialetta
     - name: Amaretto di Saronno
       quantity: 1 cucchiaio
+    imageingredient:
+      filename: dolcetti_mandorle/dolcetti_mandorle_ingredienti.jpg
+      alttext: Ingredienti per i dolcetti di mandorle.
 
 steps:
   - preparation_name: null
     list:
-    - type: image
-      filename: dolcetti_mandorle/dolcetti_mandorle_ingredienti.jpg
-      alttext: Gli ingredienti per i dolcetti alle mandorle.
     - type: text
       instruction: >
         Mescola la farina di mandorle, lo zucchero, l'albume, l'aroma e l'amaretto di Saronno.
@@ -70,7 +70,7 @@ steps:
         Cuoci in forno ventilato a 180°C per 12 minuti o finché i biscotti sono leggermente dorati.
 
 notes:
-  - Ricordati di spolverare i biscotti con lo zucchero a velo!
+  - Ricordati di spolverare i biscotti con lo zucchero a velo prima di servirli!
   - La farina di mandorle si può comprare da Caberlotto o all'Interspar.
 
 seealso:
