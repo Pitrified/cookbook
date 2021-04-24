@@ -1,59 +1,79 @@
 ---
 layout: recipe
 category: dolci
-author: Pietro
+author: Eugenia
 title: Dolcetti alle mandorle
-serves: per 4 persone
+serves: per 19 dolcetti
+
 excerpt: >
   Dolci alle mandorle buoni come quelli di Siracusa.
+
 imagefinished:
-  filename: dolcetti_mandorle.jpeg
+  filename: dolcetti_mandorle/dolcetti_mandorle.jpeg
   alttext: Un invitante foto di dolcetti alle mandorle.
-inspiration:
-  name: RapaNello
-  link:
-    url: https://www.youtube.com/watch?v=6CjZ11noTGw
-    description: il suo canale youtube
+
 ingredients:
-  - Farina di mandorle
-  - Albume
-  - Zucchero (tanto)
+  - preparation_name: null
+    list:
+    - name: Farina di mandorle
+      quantity: 250g
+    - name: Zucchero
+      quantity: 250g
+    - name: Albume d'uovo
+      quantity: 70g - servono 2 uova
+    - name: Zucchero a velo
+      quantity: 30g
+    - name: Aroma di mandorla o arancia
+      quantity: 1 fialetta
+    - name: Amaretto di Saronno
+      quantity: 1 cucchiaio
+
 steps:
-  - type: text
-    instruction: >
-      Mescola tutto per bene.
-  - type: text
-    instruction: >
-      Riposa.
-  - type: image
-    filename: dolcetti_mandorle.jpeg
-    alttext: Un invitante foto di dolcetti alle mandorle.
-  - type: text
-    instruction: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-      occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-      mollit anim id est laborum.
+  - preparation_name: null
+    list:
+    - type: image
+      filename: dolcetti_mandorle/dolcetti_mandorle_ingredienti.jpg
+      alttext: Gli ingredienti per i dolcetti alle mandorle.
+    - type: text
+      instruction: >
+        Mescola la farina di mandorle, lo zucchero, l'albume, l'aroma e l'amaretto di Saronno.
+    - type: image
+      filename: dolcetti_mandorle/dolcetti_mandorle_ciotola.jpg
+      alttext: Gli ingredienti mescolati.
+    - type: text
+      instruction: >
+        Forma delle palline da 30g aiutandoti con la bilancia
+        (fare tara e scalare via via il peso).
+        Ne verranno 19.
+    - type: image
+      filename: dolcetti_mandorle/dolcetti_mandorle_pallina.jpg
+      alttext: Una pallina di preparato.
+    - type: text
+      instruction: >
+        Ricopri le palline con zucchero a velo e disponile su una leccarda sopra alla carta da forno.
+    - type: text
+      instruction: >
+        Scalda il forno a 180°C.
+    - type: text
+      instruction: >
+        Pizzica la pallina con quattro dita per darle la caratteristica forma
+        (è possibile anche pizzicare con tre dita: pollice, indice, medio).
+    - type: image
+      filename: dolcetti_mandorle/dolcetti_mandorle_pizzico.jpg
+      alttext: I biscotti pizzicati.
+    - type: text
+      instruction: >
+        Cuoci in forno ventilato a 180°C per 12 minuti o finché i biscotti sono leggermente dorati.
+
 notes:
-  - Ricordati lo zucchero a velo!
+  - Ricordati di spolverare i biscotti con lo zucchero a velo!
+  - La farina di mandorle si può comprare da Caberlotto o all'Interspar.
+
 seealso:
   - text: >
-      Questo link.
     link:
-      url: https://www.youtube.com/watch?v=6CjZ11noTGw
-      description: il suo canale youtube
-  - text: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-      occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-      mollit anim id est laborum.
-    link:
-      url: https://www.youtube.com/watch?v=6CjZ11noTGw
-      description: il suo famoso blog
+      url: https://ricette.giallozafferano.it/Pizzicotti-di-pasta-di-mandorle.html
+      description: Giallo Zafferano
+
+
 ---
