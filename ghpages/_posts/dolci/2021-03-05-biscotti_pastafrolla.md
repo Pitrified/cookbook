@@ -8,7 +8,7 @@ serves: per una dose di pastafrolla
 excerpt: Semplici biscotti di pastafrolla.
 
 imagefinished:
-  filename: dolcetti_pastafrolla_01.jpg
+  filename: dolcetti_pastafrolla/dolcetti_pastafrolla_01.jpg
   alttext: Tre teglie di biscotti di pastafrolla.
 
 ingredients:
@@ -50,7 +50,8 @@ steps:
         Inoltre ricordati che lieviteranno (tanto) quindi lascia spazio tra i biscotti
         e non azzardare forme troppo elaborate.
     - type: text
-      instruction: Cucina in forno ventilato a 180° gradi per 15 minuti.
+      instruction: >
+        Cucina in forno ventilato a 180°C per 15 minuti o finché i biscotti sono leggermente dorati.
 
   - preparation_name: Per la glassa al cioccolato
     list:
@@ -66,7 +67,7 @@ steps:
         solleva la teglia e dai dei colpetti da sotto: il cioccolato si distenderà perfettamente.
         Oppure i biscotti voleranno ovunque.
     - type: image
-      filename: dolcetti_pastafrolla_02.jpg
+      filename: dolcetti_pastafrolla/dolcetti_pastafrolla_02.jpg
       alttext: Biscotto con il cioccolato!
 
 notes:
@@ -74,5 +75,6 @@ notes:
   - Per sbloccare subito il diabete, fai anche la crema di mascarpone e usa i biscotti
     per tirarla su.
   - La stessa pasta si puo' usare per San Martini e crostate.
+  - La glassa può essere di ogni tipo chiaramente.
 
 ---

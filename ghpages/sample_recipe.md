@@ -9,7 +9,7 @@ excerpt: >
   Può essere anche spezzata su più righe nel file,
   ma verrà tutta messa in un paragrafo solo.
 imagefinished:
-  filename: dolcetti_mandorle.jpeg
+  filename: dolcetti_mandorle/dolcetti_mandorle.jpeg
   alttext: A short description of the image content, for accessibility.
   caption: A caption for the image.
 inspiration:
@@ -42,7 +42,7 @@ steps:
       instruction: >
         Riposa.
     - type: image
-      filename: dolcetti_mandorle.jpeg
+      filename: dolcetti_mandorle/dolcetti_mandorle.jpeg
       alttext: Un invitante foto di dolcetti alle mandorle.
     - type: text
       instruction: >
