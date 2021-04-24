@@ -50,7 +50,11 @@ steps:
       alttext: Una pallina di preparato.
     - type: text
       instruction: >
-        Ricopri le palline con zucchero a velo e disponile su una leccarda sopra alla carta da forno.
+        Rotola le palline nello zucchero a velo
+        e disponile su una leccarda sopra alla carta da forno.
+    - type: image
+      filename: dolcetti_mandorle/dolcetti_mandorle_rotola.jpg
+      alttext: Rotola le palline nello zucchero a velo.
     - type: text
       instruction: >
         Scalda il forno a 180°C.
