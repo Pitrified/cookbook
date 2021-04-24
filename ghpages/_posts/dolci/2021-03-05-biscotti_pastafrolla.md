@@ -65,6 +65,9 @@ steps:
         Se vuoi rischiare di ribaltare il tutto,
         solleva la teglia e dai dei colpetti da sotto: il cioccolato si distenderà perfettamente.
         Oppure i biscotti voleranno ovunque.
+    - type: image
+      filename: dolcetti_pastafrolla_02.jpg
+      alttext: Biscotto con il cioccolato!
 
 notes:
   - Se vuoi esagerare metti una nocciola sopra il cioccolato.
