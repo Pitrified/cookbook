@@ -58,7 +58,7 @@ layout: recipe
 category: dolci
 author: Your name
 title: A captivating title
-serves: 4
+serves: per 4 persone
 excerpt: >
   A short description of the recipe, that will also be shown in the
   category page.
@@ -80,6 +80,7 @@ excerpt: >
 * `serves`:
   Required.
   How many servings can be made with the doses listed in the ingredients.
+  The entire field will be placed in parenthesis after the ingredients title.
 * `excerpt`:
   Required.
   A short description of the recipe, that will also be shown in the category page.

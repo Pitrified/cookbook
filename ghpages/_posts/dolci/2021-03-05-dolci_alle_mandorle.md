@@ -3,7 +3,7 @@ layout: recipe
 category: dolci
 author: Pietro
 title: Dolcetti alle mandorle
-serves: 4
+serves: per 4 persone
 excerpt: >
   Dolci alle mandorle buoni come quelli di Siracusa.
 imagefinished:

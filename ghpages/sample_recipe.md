@@ -3,7 +3,7 @@ layout: recipe
 category: dolci
 author: Un nome importante
 title: Il titolo esteso
-serves: 4
+serves: per 4 persone
 excerpt: >
   Una breve descrizione della ricetta.
   Può essere anche spezzata su più righe nel file,
