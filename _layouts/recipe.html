@@ -55,6 +55,13 @@ Per maggiori informazioni visita
     </li>
     {%- endfor %}
 </ul>
+{% if ingredient_list.imageingredient -%}
+    {%- assign rel_img_url = "/assets/images/" | append: ingredient_list.imageingredient.filename | relative_url -%}
+    <img class="recipe-image" src="{{ rel_img_url }}" alt="{{ ingredient_list.imageingredient.alttext }}">
+    {%- if ingredient_list.imageingredient.caption -%}
+        <figcaption>{{ ingredient_list.imageingredient.caption }}</figcaption>
+    {%- endif -%}
+{%- endif %}
 {%- endfor %}
 
 <h2>
