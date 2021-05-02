@@ -3,15 +3,26 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 
-{{ content }}
+{{ content -}}
 
-{% assign filtered_posts = site.posts | where: 'category', page.short_name %}
+{%- assign filtered_posts = site.posts | where: 'category', page.short_name %}
 {% if filtered_posts.size > 0 -%}
     {% for post in filtered_posts %}
+        <!-- New post -->
         <h2 class="headerlist">
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </h2>
         {{ post.excerpt }}
+        <!-- Add the main image with the final dish -->
+        {% if post.imagefinished %}
+            {%- assign rel_img_url = "/assets/images/" | append: post.imagefinished.filename | relative_url -%}
+            <a href="{{ post.url | relative_url }}">
+                <img class="recipe-image" src="{{ rel_img_url }}" alt="{{ post.imagefinished.alttext }}">
+            </a>
+            {%- if post.imagefinished.caption -%}
+                <figcaption>{{ post.imagefinished.caption }}</figcaption>
+            {%- endif -%}
+        {%- endif %}
     {% endfor %}
 {%- else %}
     Still no recipes for {{ page.title | downcase }}.
