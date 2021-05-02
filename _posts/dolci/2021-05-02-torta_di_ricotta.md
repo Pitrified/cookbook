@@ -8,7 +8,7 @@ serves: per una torta
 excerpt: Torta di ricotta leggera e fragrante.
 
 imagefinished:
-  filename: torta_di_ricotta/torta_di_ricotta_finita.jpg
+  filename: torta_di_ricotta/finita.jpg
   alttext: Una buona torta di ricotta.
 
 ingredients:
@@ -30,7 +30,7 @@ ingredients:
       quantity: Q.b.
 
     imageingredient:
-      filename: torta_di_ricotta/torta_di_ricotta_ingredienti.jpg
+      filename: torta_di_ricotta/ingredienti.jpg
       alttext: Ingredienti per la torta di ricotta.
 
 steps:
@@ -49,12 +49,11 @@ steps:
         aggiungere qualche cucchiaio di latte o liquore dolce fino a raggiungere
         una consistenza come nella seconda immagine.
     - type: image
-      filename: torta_di_ricotta/torta_di_ricotta_densa.jpg
+      filename: torta_di_ricotta/densa.jpg
       alttext: Biscotto con il cioccolato!
     - type: image
-      filename: torta_di_ricotta/torta_di_ricotta_liscia.jpg
+      filename: torta_di_ricotta/liscia.jpg
       alttext: Impasto con consistenza corretta.
-      caption: Impasto con consistenza corretta.
     - type: text
       instruction: >
         Imburrare e impanare la teglia, e versare la miscela.
@@ -64,7 +63,7 @@ steps:
         Eventualmente prolungare di 5 minuti con il calore residuo del forno.
         La prova dello stecchino può aiutare a capire se la torta è pronta.
     - type: image
-      filename: torta_di_ricotta/torta_di_ricotta_fetta.jpg
+      filename: torta_di_ricotta/fetta.jpg
       alttext: Biscotto con il cioccolato!
 
 notes:
