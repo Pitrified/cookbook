@@ -9,7 +9,7 @@ excerpt: >
   Dolci alle mandorle buoni come quelli di Siracusa.
 
 imagefinished:
-  filename: dolcetti_mandorle/dolcetti_mandorle.jpeg
+  filename: dolcetti_mandorle/finiti.jpeg
   alttext: Un invitante foto di dolcetti alle mandorle.
 
 ingredients:
@@ -28,7 +28,7 @@ ingredients:
     - name: Amaretto di Saronno
       quantity: 1 cucchiaio
     imageingredient:
-      filename: dolcetti_mandorle/dolcetti_mandorle_ingredienti.jpg
+      filename: dolcetti_mandorle/ingredienti.jpg
       alttext: Ingredienti per i dolcetti di mandorle.
 
 steps:
@@ -38,7 +38,7 @@ steps:
       instruction: >
         Mescola la farina di mandorle, lo zucchero, l'albume, l'aroma e l'amaretto di Saronno.
     - type: image
-      filename: dolcetti_mandorle/dolcetti_mandorle_ciotola.jpg
+      filename: dolcetti_mandorle/ciotola.jpg
       alttext: Gli ingredienti mescolati.
     - type: text
       instruction: >
@@ -46,14 +46,14 @@ steps:
         (fare tara e scalare via via il peso).
         Ne verranno 19.
     - type: image
-      filename: dolcetti_mandorle/dolcetti_mandorle_pallina.jpg
+      filename: dolcetti_mandorle/pallina.jpg
       alttext: Una pallina di preparato.
     - type: text
       instruction: >
         Rotola le palline nello zucchero a velo
         e disponile su una leccarda sopra alla carta da forno.
     - type: image
-      filename: dolcetti_mandorle/dolcetti_mandorle_rotola.jpg
+      filename: dolcetti_mandorle/rotola.jpg
       alttext: Rotola le palline nello zucchero a velo.
     - type: text
       instruction: >
@@ -63,7 +63,7 @@ steps:
         Pizzica la pallina con quattro dita per darle la caratteristica forma
         (è possibile anche pizzicare con tre dita: pollice, indice, medio).
     - type: image
-      filename: dolcetti_mandorle/dolcetti_mandorle_pizzico.jpg
+      filename: dolcetti_mandorle/pizzico.jpg
       alttext: I biscotti pizzicati.
     - type: text
       instruction: >

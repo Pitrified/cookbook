@@ -8,7 +8,7 @@ serves: per una dose di pastafrolla
 excerpt: Semplici biscotti di pastafrolla.
 
 imagefinished:
-  filename: dolcetti_pastafrolla/dolcetti_pastafrolla_01.jpg
+  filename: dolcetti_pastafrolla/finiti.jpg
   alttext: Tre teglie di biscotti di pastafrolla.
 
 ingredients:
@@ -67,7 +67,7 @@ steps:
         solleva la teglia e dai dei colpetti da sotto: il cioccolato si distenderà perfettamente.
         Oppure i biscotti voleranno ovunque.
     - type: image
-      filename: dolcetti_pastafrolla/dolcetti_pastafrolla_02.jpg
+      filename: dolcetti_pastafrolla/guarniti.jpg
       alttext: Biscotto con il cioccolato!
 
 notes:
