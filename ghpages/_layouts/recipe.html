@@ -86,6 +86,9 @@ Per maggiori informazioni visita
         {%- elsif s.type == 'image' -%}
             {%- assign rel_img_url = "/assets/images/" | append: s.filename | relative_url %}
             <img class="recipe-image" src="{{ rel_img_url }}" alt="{{ s.alttext }}">
+            {%- if s.caption -%}
+                <figcaption>{{ s.caption }}</figcaption>
+            {%- endif -%}
         {%- endif -%}
     {%- endfor %}
 </ol>

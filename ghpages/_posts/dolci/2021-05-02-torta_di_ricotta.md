@@ -53,7 +53,8 @@ steps:
       alttext: Biscotto con il cioccolato!
     - type: image
       filename: torta_di_ricotta/torta_di_ricotta_liscia.jpg
-      alttext: Biscotto con il cioccolato!
+      alttext: Impasto con consistenza corretta.
+      caption: Impasto con consistenza corretta.
     - type: text
       instruction: >
         Imburrare e impanare la teglia, e versare la miscela.
