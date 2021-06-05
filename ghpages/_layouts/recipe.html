@@ -37,6 +37,8 @@ Per maggiori informazioni visita
 </p>
 {%- endif %}
 
+{% if page.ingredients -%}
+
 <h2>
     Ingredienti ({{ page.serves }})
 </h2>
@@ -64,9 +66,13 @@ Per maggiori informazioni visita
 {%- endif %}
 {%- endfor %}
 
+{%- endif %}
+
 <h2>
     Procedimento
 </h2>
+
+{% if page.steps -%}
 
 {%- for step_list in page.steps %}
 
@@ -94,6 +100,13 @@ Per maggiori informazioni visita
 </ol>
 
 {%- endfor %}
+
+{%- else %}
+
+{%- assign rel_img_url = "/assets/images/meme/keep_your_secrets.png" | relative_url %}
+<img class="recipe-image" src="{{ rel_img_url }}" alt="Keep your secrets.">
+
+{% endif %}
 
 {%- if page.notes -%}
 <h2>
