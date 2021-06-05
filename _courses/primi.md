@@ -5,4 +5,3 @@ order: 03
 ---
 
 Pasta, what else?
-Una miriade di piatti, in realtà.
