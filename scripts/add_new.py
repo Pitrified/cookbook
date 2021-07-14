@@ -97,15 +97,15 @@ def run_add_new(args: argparse.Namespace) -> None:
 
     base_new_images
         |==== new
-            |==== dolci
-                |==== recipe_name_1
-                    |==== finito.jpg
-                    |==== whatever.jpg
+        |   |==== dolci
+        |       |==== recipe_name_1
+        |           |==== finito.jpg
+        |           |==== whatever.jpg
         |==== todo
     cookbook_repo/ghpages
         |==== _posts
-            |==== dolci
-                |==== 2021-03-05-recipe_name_1.md
+        |   |==== dolci
+        |       |==== 2021-03-05-recipe_name_1.md
         |==== assets/images
             |==== recipe_name_1
                 |==== finito.jpg
@@ -121,6 +121,8 @@ def run_add_new(args: argparse.Namespace) -> None:
 
     TODO:
         * Something should check if a recipe with the same name exists
+        * Search for more combinations finito_name.jpeg
+        * Cmdline images_base_folder
 
     Args:
         args: The parsed cmdline arguments.
