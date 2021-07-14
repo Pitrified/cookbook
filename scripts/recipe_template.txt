@@ -1,0 +1,15 @@
+---
+layout: recipe
+category: {category}
+author: Pyt
+title: {title_up}
+serves: Everybody
+
+excerpt: >
+  Buono di sicuro.
+
+imagefinished:
+  filename: {recipe_name}/{finito_name}
+  alttext: Un invitante foto di {title}.
+
+---
