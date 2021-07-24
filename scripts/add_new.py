@@ -191,7 +191,7 @@ def run_add_new(args: argparse.Namespace) -> None:
             # build the post file name
             now = datetime.now()
             date_time = now.strftime("%Y-%m-%d")
-            post_name = f"{date_time}_{recipe_name}.md"
+            post_name = f"{date_time}-{recipe_name}.md"
             logg.debug(f"post_name: {post_name}")
 
             # build the post and save it
