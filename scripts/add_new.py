@@ -131,6 +131,7 @@ def run_add_new(args: argparse.Namespace) -> None:
     logg.setLevel("DEBUG")
     logg.debug("Starting run_add_new")
 
+
     script_base_folder = Path(__file__).absolute().parent
     logg.debug(f"script_base_folder: {script_base_folder}")
     recipe_template_path = script_base_folder / "recipe_template.txt"
@@ -141,7 +142,8 @@ def run_add_new(args: argparse.Namespace) -> None:
     repo_base_folder = script_base_folder.parent
     repo_img_folder = repo_base_folder / "ghpages" / "assets" / "images"
 
-    images_base_folder = Path("~/ephem/cook_photo/cookbook").expanduser()
+    # images_base_folder = Path("~/ephem/cook_photo/cookbook").expanduser()
+    images_base_folder = Path("~/Pictures/ricette").expanduser()
     new_images_folder = images_base_folder / "new"
     todo_base_folder = images_base_folder / "todo"
 
