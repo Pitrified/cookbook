@@ -16,7 +16,7 @@ ingredients:
   - preparation_name: null
     list:
     - name: Filetto di maiale
-      quantity: ???
+      quantity: 600 g
     - name: Marsala
       quantity: 100 ml
     - name: Farina 00
