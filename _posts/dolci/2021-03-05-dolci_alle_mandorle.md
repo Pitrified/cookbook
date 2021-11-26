@@ -16,13 +16,13 @@ ingredients:
   - preparation_name: null
     list:
     - name: Farina di mandorle
-      quantity: 250g
+      quantity: 250 g
     - name: Zucchero
-      quantity: 250g
+      quantity: 250 g
     - name: Albume d'uovo
-      quantity: 70g - servono 2 uova
+      quantity: 70 g - servono 2 uova
     - name: Zucchero a velo
-      quantity: 30g
+      quantity: 30 g
     - name: Aroma di mandorla o arancia
       quantity: 1 fialetta
     - name: Amaretto di Saronno

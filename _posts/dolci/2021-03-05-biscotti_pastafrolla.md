@@ -15,20 +15,20 @@ ingredients:
   - preparation_name: null
     list:
     - name: Farina 00
-      quantity: 300g
+      quantity: 300 g
     - name: Zucchero
-      quantity: 150g
+      quantity: 150 g
     - name: Burro
-      quantity: 100g
+      quantity: 100 g
     - name: Uova
       quantity: 2
-    - name: Lievito per dolci
-      quantity: 8g (mezza bustina paneangeli com'è giusto che sia)
+    - name: Lievito per dolci (mezza bustina paneangeli com'è giusto che sia)
+      quantity: 8 g
 
   - preparation_name: Per la glassa al cioccolato
     list:
     - name: Cioccolato fondente
-      quantity: 100g
+      quantity: 100 g
 
 steps:
 
@@ -64,7 +64,8 @@ steps:
         verso il bordo.
         Se cola troppo, aspetta un minuto che il cioccolato si rapprenda un po'.
         Se vuoi rischiare di ribaltare il tutto,
-        solleva la teglia e dai dei colpetti da sotto: il cioccolato si distenderà perfettamente.
+        solleva la teglia una volta ricoperti tutti i biscotti
+        e dai dei colpetti da sotto: il cioccolato si distenderà perfettamente.
         Oppure i biscotti voleranno ovunque.
     - type: image
       filename: dolcetti_pastafrolla/guarniti.jpg

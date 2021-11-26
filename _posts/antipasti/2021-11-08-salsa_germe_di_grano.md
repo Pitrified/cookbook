@@ -3,7 +3,7 @@ layout: recipe
 category: antipasti
 author: Ester
 title: Salsa germe di grano
-serves: 10
+serves: per 100g di salsa
 
 excerpt: >
     Sfiziosa e naturale.
@@ -16,13 +16,13 @@ ingredients:
   - preparation_name: null
     list:
     - name: Germe di grano
-      quantity: 30g
+      quantity: 30 g
     - name: Dado vegetale biodinamico attivo senza lievito
-      quantity: 10g
+      quantity: 10 g
     - name: Lievito secco in fiocchi
-      quantity: 10g
+      quantity: 10 g
     - name: Olio di semi di girasole
-      quantity: 50g
+      quantity: 50 g
     - name: Erba cipollina
       quantity: q.b.
 
