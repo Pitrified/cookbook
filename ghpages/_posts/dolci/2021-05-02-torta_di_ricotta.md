@@ -15,19 +15,19 @@ ingredients:
   - preparation_name: null
     list:
     - name: Zucchero
-      quantity: 300g
+      quantity: 300 g
     - name: Farina 00
-      quantity: 250g
+      quantity: 250 g
     - name: Ricotta
-      quantity: 250g
+      quantity: 250 g
     - name: Uova
       quantity: 3
-    - name: Lievito per dolci
-      quantity: 16g (una bustina paneangeli no concorrenza)
+    - name: Lievito per dolci (una bustina paneangeli no concorrenza)
+      quantity: 16 g
     - name: Burro
-      quantity: Q.b.
+      quantity: q.b.
     - name: Pangrattato
-      quantity: Q.b.
+      quantity: q.b.
 
     imageingredient:
       filename: torta_di_ricotta/ingredienti.jpg

@@ -26,9 +26,9 @@ ingredients:
     - name: Succo di lime
       quantity: mezzo
     - name: Sale
-      quantity: qb
+      quantity: q.b.
     - name: Olio
-      quantity: qb
+      quantity: q.b.
 
 steps:
   - preparation_name: null

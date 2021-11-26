@@ -15,22 +15,21 @@ ingredients:
   - preparation_name: null
     list:
     - name: Farina di semola di grano duro
-      quantity: 300g
+      quantity: 300 g
     - name: Farina di Manitoba tipo "0"
-      quantity: 300g
+      quantity: 300 g
     - name: Acqua
-      quantity: 400ml
+      quantity: 400 ml
     - name: Lievito di birra fresco
-      quantity: 12g
+      quantity: 12 g
     - name: "Oppure: Lievito di birra secco"
-      quantity: 7g
+      quantity: 7 g
     - name: Olio extra-vergine di oliva
-      quantity: 20ml
+      quantity: 20 ml
     - name: Zucchero
       quantity: un cucchiaio grande
     - name: Sale
       quantity: un cucchiaio piccolo
-
     imageingredient:
       filename: pane_semola_rimacinata_grano_duro/ingredienti.jpg
       alttext: Ingredienti per il pane.

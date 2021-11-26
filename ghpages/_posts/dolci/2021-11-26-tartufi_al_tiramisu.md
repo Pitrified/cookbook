@@ -25,6 +25,8 @@ ingredients:
       quantity: 50 g
     - name: Cacao amaro
       quantity: q.b.
+    - name: Amaretto di Saronno
+      quantity: 1 cucchiaio, opzionale
     imageingredient:
       filename: tartufi_al_tiramisu/ingredienti.jpg
       alttext: Ingredienti per i tartufi al tiramisù.
@@ -41,6 +43,9 @@ steps:
     - type: text
       instruction: >
         Mescola caffè, zucchero a velo e ricotta.
+        Se hai scelto l'opzione ALCOL,
+        riduci la quantità di caffè utilizzato
+        e aggiungi l'amaretto.
     - type: text
       instruction: >
         Aggiungi i savoiardi tritati.
@@ -59,5 +64,8 @@ notes:
       Oppure meno caffè o più biscotti.
   - Usare una marisa per mescolare funziona bene ed elimina tutti i grumi di formaggio.
   - Al posto della ricotta andrebbe il mascarpone :D.
+  - "Si possono fare come monoporzione:
+      riempi un bicchiere di trito, copri con cacao amaro.
+      "
 
 ---
