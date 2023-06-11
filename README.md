@@ -12,9 +12,17 @@ See it
 * https://jekyllrb.com/docs/installation/
 * https://jekyllrb.com/docs/step-by-step/01-setup/
 
+Add to .bashrc:
+
+```bash
+export GEM_HOME=$HOME/.gem
+export GEM_PATH=$HOME/.gem
+```
+
 ```bash
 sudo apt install ruby-full
 sudo gem install jekyll bundler
+cd ghpages
 bundle install
 bundle add webrick # might be in the Gemfile now
 ```
