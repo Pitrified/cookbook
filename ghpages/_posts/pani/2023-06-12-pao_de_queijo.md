@@ -1,7 +1,7 @@
 ---
 layout: recipe
 category: pani
-author: It's a secret but I love her
+author: Paula <3
 title: Pão de queijo
 serves: Everybody
 
